@@ -1,7 +1,8 @@
 {
   "name": "coracao-literario-delivery",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000d\u0000e\u0000l\u0000i\u0000v\u0000e\u0000r\u0000y\u0000-\u0000l\u0000i\u0000v\u0000r\u0000a\u0000r\u0000i\u0000a\u0000\r\u0000 \u0000",
+  
+  "description": "Projeto de delivery para livraria com Tailwind CSS",
   "main": "index.js",
   "scripts": {
     "dev": "npx tailwindcss -i ./styles/style.css -o ./styles/output.css --watch"
@@ -19,6 +20,11 @@
   },
   "homepage": "https://github.com/JullianeSSousa/delivery-livraria#readme",
   "devDependencies": {
+    "postcss-cli": "^11.0.1",
     "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6"
   }
 }
