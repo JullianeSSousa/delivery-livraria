@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/output.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <title>Coração literário - Livrária</title>
   </head>
@@ -25,7 +31,7 @@
           >Rua das Livrárias Dev, 222 Campina Grande</span
         >
 
-        <div class="bg-lime-400 px-5 py-2 rounded-lg mt-5" id="date-span">
+        <div class="bg-lime-400 px-5 py-4 rounded-lg mt-5" id="date-span">
           <span class="text-violet-950 font-medium"
             >Seg á Dom - 8:00 ás 18:00</span
           >
@@ -36,6 +42,8 @@
     <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">
       Conheça nossa Estante
     </h2>
+
+    <!--inicio do main-->
 
     <div id="menu">
       <main class="grid-cols-1">
@@ -59,18 +67,18 @@
               <p class="font-bold">R$ 65,00</p>
 
               <button
-                class="bg-pink-500 px-5 rounded add-book"
+                class="bg-pink-500 px-5 py-2 rounded add-book"
                 data-name="meu-pe-de-laranja"
                 data-price="65.00"
               >
-               <i class="fa fa-shopping-cart text-lg text-lime-300"></i>
+                <i class="fa fa-shopping-cart text-lg text-lime-300"></i>
               </button>
             </div>
           </div>
         </div>
         <!--FIM PRODUTO ITEM-->
 
-         <div class="flex gap-2 mt-4">
+        <div class="flex gap-2 mt-4">
           <img
             src="/assets/livro 2.png"
             alt="livro 2"
@@ -80,15 +88,13 @@
           <div class="mt-8">
             <p class="font-bold">BOX Gabriel Garcia Márquez</p>
 
-            <p class="text-sm">
-              Edição Colecionador : Cem anos de Solidão.
-            </p>
+            <p class="text-sm">Edição Colecionador : Cem anos de Solidão.</p>
 
             <div class="flex items-center gap-2 justify-between mt-5">
               <p class="font-bold">R$ 162,00</p>
 
               <button
-                class="bg-pink-500 px-5 rounded add-book-two"
+                class="bg-pink-500 px-5 py-2 rounded add-book-two"
                 data-name="cem-anos-de-solidao"
                 data-price="162.00"
               >
@@ -97,6 +103,62 @@
             </div>
           </div>
         </div>
+        <!--FIM PRODUTO ITEM-->
+
+        <div class="flex gap-2 mt-4">
+          <img
+            src="/assets/livro 3.png"
+            alt="livro 3"
+            class="w-13 h-15 rounded-md hover:scale-110 hover:-rotate-2 duration:200"
+          />
+
+          <div class="mt-10">
+            <p class="font-bold">Persuasão</p>
+
+            <p class="text-sm">Edição Capa dura : Jane Austen</p>
+
+            <div class="flex items-center gap-2 justify-between mt-5">
+              <p class="font-bold">R$ 45,00</p>
+
+              <button
+                class="bg-pink-500 px-5 py-2 rounded add-book-three"
+                data-name="persuasao"
+                data-price="45.00"
+              >
+                <i class="fa fa-shopping-cart text-lg text-lime-300"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+         <!--FIM PRODUTO ITEM-->
+
+        <div class="flex gap-2 mt-4">
+          <img
+            src="/assets/livro 4.png"
+            alt="livro 4"
+            class="w-13 h-15 rounded-md hover:scale-110 hover:-rotate-2 duration:200"
+          />
+
+          <div class="mt-10">
+            <p class="font-bold">Depois daquele inverno</p>
+
+            <p class="text-sm">Brittainy Cherry (Autor), Carolina Simmer (Tradutor)</p>
+
+            <div class="flex items-center gap-2 justify-between mt-5">
+              <p class="font-bold">R$ 55,00</p>
+
+              <button
+                class="bg-pink-500 px-5 py-2 rounded add-book-two"
+                data-name="depois-daquele-inverno"
+                data-price="55.00"
+              >
+                <i class="fa fa-shopping-cart text-lg text-lime-300"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
       </main>
     </div>
   </body>
