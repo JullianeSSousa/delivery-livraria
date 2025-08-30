@@ -46,14 +46,16 @@
     <!--inicio do main-->
 
     <div id="menu">
-      <main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-15 mx-auto max-w-7xl px-2 mb-18">
+      <main
+        class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-15 mx-auto max-w-7xl px-2 mb-18"
+      >
         <!--PRODUTO ITEM-->
 
         <div class="flex gap-2">
           <img
             src="/assets/livro 1.png"
             alt="livro 1"
-            class="w-auto h-15 rounded-md hover:scale-110 hover:-rotate-2 duration:200"
+            class="w-auto h-13 rounded-md hover:scale-110 hover:-rotate-2 duration:200"
           />
 
           <div class="mt-8">
@@ -82,7 +84,7 @@
           <img
             src="/assets/livro 2.png"
             alt="livro 2"
-            class="w-auto h-15  rounded-md hover:scale-110 hover:-rotate-2 duration:200"
+            class="w-auto h-13 rounded-md hover:scale-110 hover:-rotate-2 duration:200"
           />
 
           <div class="mt-8">
@@ -109,7 +111,7 @@
           <img
             src="/assets/livro 3.png"
             alt="livro 3"
-            class="w-auto h-15 rounded-md hover:scale-110 hover:-rotate-2 duration:200"
+            class="w-auto h-13 rounded-md hover:scale-110 hover:-rotate-2 duration:200"
           />
 
           <div class="mt-10">
@@ -131,19 +133,21 @@
           </div>
         </div>
 
-         <!--FIM PRODUTO ITEM-->
+        <!--FIM PRODUTO ITEM-->
 
         <div class="flex gap-2 mt-4">
           <img
             src="/assets/livro 4.png"
             alt="livro 4"
-            class="w-auto h-15 rounded-md hover:scale-110 hover:-rotate-2 duration:200"
+            class="w-auto h-13 rounded-md hover:scale-110 hover:-rotate-2 duration:200"
           />
 
           <div class="mt-10">
             <p class="font-bold">Depois daquele inverno</p>
 
-            <p class="text-sm">Brittainy Cherry (Autor), Carolina Simmer (Tradutor)</p>
+            <p class="text-sm">
+              Brittainy Cherry (Autor), Carolina Simmer (Tradutor)
+            </p>
 
             <div class="flex items-center gap-2 justify-between mt-5">
               <p class="font-bold">R$ 55,00</p>
@@ -158,8 +162,51 @@
             </div>
           </div>
         </div>
-
       </main>
+
+
+<!------------------------------------------------------------------------>
+
+      <div class="mx-auto max-w-7xl px-2 my-2">
+        <h2 class="font-bold text-3xl">Papelaria</h2>
+      </div>
+      <div
+        id="menu"
+        class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-15 mx-auto max-w-7xl px-2 mb-18"
+      >
+        <!--grid papelaria-->
+
+        <!--PRODUTO ITEM-->
+
+        <div class="flex gap-2">
+          <img
+            src="/assets/marcador.png"
+            alt="marcador
+            class="w-auto h-13 rounded-md hover:scale-110 hover:-rotate-2 duration:200"
+          />
+
+          <div class="mt-8">
+            <p class="font-bold">Kit Marcadores de Página</p>
+
+            <p class="text-sm">
+              Material: Acrílico
+            </p>
+
+            <div class="flex items-center gap-2 justify-between mt-5">
+              <p class="font-bold">R$ 65,00</p>
+
+              <button
+                class="bg-pink-500 px-5 py-2 rounded add-book"
+                data-name="meu-pe-de-laranja"
+                data-price="65.00"
+              >
+                <i class="fa fa-shopping-cart text-lg text-lime-300"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!--FIM PRODUTO ITEM-->
+      </div>
     </div>
   </body>
 </html>
